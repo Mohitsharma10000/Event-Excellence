@@ -1,7 +1,6 @@
-// JavaScript for enhancing interactivity on the website
+
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Smooth scrolling for navigation links
     const links = document.querySelectorAll(".navbar a");
 
     links.forEach(link => {
@@ -34,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Submit form with a success message
+
     const bookingForm = document.querySelector(".booking-form");
 
     bookingForm.addEventListener("submit", (e) => {
@@ -42,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         alert("Thank you for booking with Event Excellence! We'll get in touch with you soon.");
 
-        // Optionally reset the form
+        
         bookingForm.reset();
     });
 });
