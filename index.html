@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Event Excellence</h1>
+            <p>Elevating Your Events to New Heights</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Making Your Events Extraordinary</h2>
+            <p>Welcome to Event Excellence!
+                Creating unforgettable events is what we do best. From weddings and corporate functions to private parties, we bring your vision to life with creativity and precision. Let us handle the details, while you enjoy a stress-free, memorable experience. At Event Excellence, we turn your special moments into lasting memories.
+                We specialize in creating unforgettable moments for weddings, corporate events, and parties.</p>
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Our Events</h2>
+            <div class="event-list">
+                <div id="wedding" class="event-card">
+                    <img src="https://shaandaarevents.com/wp-content/uploads/2024/01/Destination-Wedding-Shaandaar-Events.webp" alt="wedding" width="300">
+
+                    <h3>Wedding Planning</h3>
+                    <p>Make your special day unforgettable with our tailored wedding planning services.</p>
+                </div>
+                <div id="corporate" class="event-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCz8x-Uc-CL6xxlABiVnc1Gq8m59Ys8yqfKg&s" alt="corporate party" width="400">
+                    <h3>Corporate Events</h3>
+                    <p>Professional event planning for conferences, product launches, and more.</p>
+                </div>
+                <div id="birthday" class="event-card">
+                    <img src="https://borntoparty.in/img/what-we-do/birthday-event-planner.jpg" alt="birthday party" width="300">
+                    <h3>Birthday Parties</h3>
+                    <p>Celebrate in style with unique themes and complete party arrangements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="section">
+        <div class="container">
+            <h2>Book Your Event</h2>
+            <form class="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="event-type">Event Type:</label>
+                <select id="event-type" name="event-type">
+                    <option value="wedding">Wedding</option>
+                    <option value="corporate">Corporate</option>
+                    <option value="birthday">Birthday</option>
+                </select>
+
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials">
+                <blockquote>
+                    "Event Excellence made our wedding day stress-free and magical. Highly recommended!"
+                    <cite> - Jane & John Doe</cite>
+                </blockquote>
+                <blockquote>
+                    "Their professionalism and attention to detail turned our corporate event into a great success."
+                    <cite> - Sarah Lee</cite>
+                </blockquote>
+                <blockquote>
+                    "Fantastic birthday party arrangements! The kids and parents were equally impressed."
+                    <cite> - Mark Thompson</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Event Excellence. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
